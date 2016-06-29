@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+
+
+  		<div class="container-fluid" id="main">
+
+  			<div class="navbar navbar-fixed-top">
+  				<div class="container">
+
+  					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+  					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  						<span class="icon-bar"></span>
+  					</button>
+
+  					<a class="navbar-brand " href="/"><h1>RydeSmart</h1></a>
+
+
+  					<div class="nav-collapse collapse navbar-responsive-collapse col xs-12 pull-right">
+  						<ul class="nav navbar-nav">
+  							<li>
+  								<a href="#"><span class="glyphicon glyphicon-home"> Home</a>
+  							</li>
+
+  							<li class="dropdown">
+  								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Help<strong class="caret"></strong></a>
+
+  								<ul class="dropdown-menu">
+  									<li>
+  										<a href="#">FAQ's</a>
+  									</li>
+
+  									<li>
+  										<a href="#">Payment</a>
+  									</li>
+
+  									<li>
+  										<a href="#">How to use SmartRyde</a>
+  									</li>
+
+  									<li class="divider"></li>
+
+  									<li class="dropdown-header">More Services</li>
+
+  									<li>
+  										<a href="#">SmartRyde Share</a>
+  									</li>
+
+  									<li>
+  										<a href="#">SmartRyde Money</a>
+  									</li>
+  								</ul><!-- end dropdown-menu -->
+  							</li>
+
+
+              <li class="dropdown">
+                <a href="#"  data-toggle="dropdown">Find The City <span class="glyphicon glyphicon-map-marker"></span> </a>
+
+
+
+  							<li class="dropdown">
+  								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>  Account<strong class="caret"></strong></a>
+
+  								<ul class="dropdown-menu">
+  									<li>
+  									<a href="#">Sign Up</a>
+  									</li>
+
+  									<li>
+  										<a href="#">Login</a>
+  									</li>
+
+  									</li>
+  								</ul>
+  							</li>
+  						</ul><!-- end nav pull-right -->
+  					</div><!-- end nav-collapse -->
+
+  				</div><!-- end container -->
+  			</div><!-- end navbar -->
+
+
+        <div class="carousel slide container-fluid" id="myCarousel">
+            <div class="backdrop">
+						</div>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active" id="slide1">
+              <div class="carousel-caption">
+
+                <h2> RIDE ANYWHERE ANYTIME</h2>
+
+
+						  </div><!-- end carousel-caption-->
+            </div><!-- end item -->
+
+            <div class="item" id="slide2">
+              <div class="carousel-caption">
+
+							  <h4 class="abc">If You Drink</h4>
+              <h1 class="ab"> <span class="highlight">DONT DRIVE!</span></h1>
+              <h4 class="abc">Let us get you Home</h4>
+
+							</div><!-- end carousel-caption-->
+            </div><!-- end item -->
+
+            <div class="item" id="slide3">
+              <div class="carousel-caption">
+
+
+								<h1><span class="high">SPIN RYDE REPEAT</span></h1>
+
+              </div><!-- end carousel-caption-->
+            </div><!-- end item -->
+          </div><!-- carousel-inner -->
+
+          <!-- Controls -->
+          <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+          <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+        </div><!-- end myCarousel -->
+
+        <div class="row" id="bigCallout">
+          <div class="col-12">
+
+
+
+
+            <!-- Visible only on small devices -->
+            <div class="well well-small visible-sm">
+              <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> 77558899</a>
+            </div><!-- end well-small -->
+
+            <div class="well">
+              <div class="page-header">
+                <h1>Tap the app, get a ride <small>Enjoy awesome discount</small></h1>
+              </div><!-- end page-header -->
+
+              <p class="lead">SmartRyde is the smartest way to get around. One tap and a car comes directly to you. Your driver knows exactly where to go. And you can pay with either cash or card.</p>
+
+
+
+
+              								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Sign Up</a>
+
+              								<div class="modal fade" id="myModal">
+              									<div class="modal-dialog">
+              										<div class="modal-content">
+              											<div class="modal-header">
+              												<button class="close" data-dismiss="modal">&times;</button>
+
+              												<h4 class="modal-title">SmartRyde</h4>
+              											</div><!-- end modal-header -->
+              											<div class="modal-body">
+              												<h4>Sign Up</h4>
+
+              												<p>Get connected with SmartRyde.</p>
+
+              												<hr>
+
+              												<p><small class="text-muted">Enter the details:</small></p>
+
+              												<form class="form-horizontal">
+              													<div class="form-group">
+              														<label class="col-lg-2 control-label" for="inputName">Name</label>
+              														<div class="col-lg-10">
+              															<input class="form-control" id="inputName" placeholder="Name" type="text">
+              														</div>
+              													</div>
+
+              													<div class="form-group">
+              														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+              														<div class="col-lg-10">
+              															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+              														</div>
+              													</div>
+
+              													<div class="form-group">
+              														<label class="col-lg-2 control-label" for="password">Password</label>
+              														<div class="col-lg-10">
+              															<input class="form-control" id="password" placeholder="Password" type="password">
+              															<button class="btn btn-success pull-right" type="submit">Register</button>
+              														</div>
+              													</div>
+              												</form>
+              											</div><!-- end modal-body -->
+
+              											<div class="modal-footer">
+              												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+              											</div><!-- end modal-footer -->
+              										</div><!-- end modal-content -->
+              									</div><!-- end modal-dialog -->
+              								</div><!-- end myModal -->
+
+
+
+              <a href="" class="btn btn-large btn-link">or Login in</a>
+            </div><!-- end well -->
+
+          </div><!-- end col-12 -->
+        </div><!-- end bigCallout -->
+
+				<div class="row" id="featuresHeading">
+					<div class="col-12">
+						<h2>Know More</h2>
+					</div><!-- end col-12 -->
+				</div><!-- end featuresHeading -->
+
+
+				<div class="row" id="features">
+				<div class="col-sm-4 feature">
+							<div class="panel">
+
+								<img src="../images/taxi-logo.png" alt="taxi-logo" class="img-circle">
+               <h3>Spin the wheel and Ryde</h3>
+								<p>You get random discount and offers when you spin the wheel everytime you ride.</p>
+	<a href="#" target="_blank" class="btn btn-danger btn-block">Style it up with CSS3</a>
+
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+
+						<div class="col-sm-4 feature">
+							<div class="panel">
+
+								<img src="../images/paytm-logo.jpg" alt="paytm" class="img-circle">
+              <h3>Paytm Wallet</h3>
+								<p>Sync your account with patym and ryde cash free.</p>
+
+	<a href="#" target="_blank" class="btn btn-info btn-block">Style it up with CSS3</a>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+
+						<div class="col-sm-4 feature">
+							<div class="panel">
+
+								<img src="../images/download.png" alt="thumbs up" class="img-circle">
+   <h3>Excellence in Customer Satisfaction</h3>
+								<p>You can always request everyday cars at everyday at lowest  prices.</p>
+
+	<a href="#" target="_blank" class="btn btn-primary btn-block">Style it up with CSS3</a>
+							</div><!-- end panel -->
+						</div><!-- end feature -->
+					</div><!-- end features -->
+
+
+</div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+			<h6>Copyright &copy; 2013 {name}</h6>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-4">
+				<h6>About Us</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div><!-- end col-sm-4 -->
+
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h6>Follow Us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google Plus</a></li>
+				</ul>
+			</div><!-- end col-sm-2 -->
+
+			<div class="col-sm-2">
+				<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
+			</div><!-- end col-sm-2 -->
+		</div><!-- end row -->
+	</div><!-- end container -->
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- All Javascript at the bottom of the page for faster page loading -->
+
+  <!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+
+  </body>
+</html>
