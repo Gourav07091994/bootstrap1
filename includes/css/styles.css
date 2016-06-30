@@ -9,6 +9,9 @@ Notes:	 Hand coded for Udemy.com
 
 */
 
+.clear {
+	clear: both;
+}
 
 /* --------------------------------------
    Layout
@@ -27,7 +30,40 @@ Notes:	 Hand coded for Udemy.com
 	margin-top: 15px;
 
 }
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
 
+
+#search{
+	align-items: center;
+}
+.mid{
+ margin-top: 80px;
+	background: url("../../images/screen_lg.jpg")  no-repeat;
+	background-size: cover;
+	height:200px;
+
+}
+.form-control{
+
+	width: 400px;
+	height: 40px;
+	align-items: center;
+}
+.bullets{
+	list-style:none;
+}
+.bullets{
+	color: black;
+}
+
+.bullets a:hover{
+	text-decoration: none;
+}
 
 /* --------------------------------------
    Typography
@@ -47,11 +83,10 @@ p {
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-	 #myCarousel {
-	 	margin-top: 60px;
 
-	 }
-
+#myCarousel{
+	padding-top: 10px;
+}
 	 .carousel-caption {
 	 	font-size: 24px;
 	 }
@@ -66,7 +101,7 @@ p {
 	background:black;
 	height: 100%;
 	width: 100%;
-	opacity;0.1;
+	opacity:0.1;
 	top: 0;
 	left: 0;
 	position: absolute;
@@ -79,17 +114,59 @@ p {
  .item #slide2{
 	 color: red;
  }
-	 #myCarousel .item { height: 400px; margin-top: 20px;}
+	 #myCarousel .item { height: 500px; margin-top: 20px;}
 
-	 	.carousel-caption {
-	 		text-align: left;
-	 		left: 0px;
-	    font-size: 50px;
-	     color: black;
-	 		margin-left: 130px;
-	 		margin-bottom: 100px;
+	 .carousel-caption h2{
+		 text-align: left;
+		 left: 0px;
+		 font-size: 25px;
+			color: black;
+		 margin-left: 8px;
+		 margin-bottom: 150px;
 
-	 	}
+	 }
+	 .abc{
+		 font-size: 20px;
+		 text-align: center;
+		 color:black;
+
+
+	 }
+	 .ab{
+		 font-size: 26px;
+		 text-align: center;
+		 color: #900C3F;
+	 }
+
+	.highlight{
+	 color: white;
+	 background: black;
+	}
+	.high{
+	 margin-left: 00px;
+	 margin-top: 200px;
+	 font-size: 30px;
+	 color: #4E2736;
+
+	}
+
+
+
+.navigation li{
+	list-style: none;
+}
+.tab-content h1{
+text-align: center;
+margin-bottom: 30px;
+}
+#moreInfo h3{
+
+	margin-bottom: 20px;
+}
+.right{
+	margin-left: 400px;
+
+}
 
 
 	 #slide1 {
@@ -103,7 +180,7 @@ p {
 	 }
 
 	 #slide3 {
-	 	background: url('../../images/img3_med.jpg') top center no-repeat;
+	 	background: url('../../images/img4_md.jpg') top center no-repeat;
 			background-size: cover;
 	 }
 
@@ -119,26 +196,99 @@ p {
 		margin-top: 20px;
 	 }
 
+#register{
+	margin-top: 10px;
+	margin-right: 10px;
+}
 
 #bigCallout{
 	margin-top: 20px;
 }
+
+.mid{
+	margin-top: 80px;
+	text-align: center;
+}
+.unstyled{
+	list-style: none;
+}
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+	.navigation a{
+		font-size: 12px;
+	}
 
+
+	#slide1 {
+		background: url('../../images/img1_xs.jpg') top center no-repeat;
+		background-size: cover;
+		height: 500px;
+	}
+
+	#slide2 {
+		background: url('../../images/img2_xs.jpg') top center no-repeat;
+			background-size: cover;
+	}
+
+	#slide3 {
+		background: url('../../images/img4_xs.jpg') top center no-repeat;
+	background-size: cover;
+	}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+	.mid h2{
+		font-size: 15px;
+
+	}
+	.mid .form-control{
+		width: 150px;
+	}
+	.navigation a{
+		font-size: 15px;
+	}
 
 
-	#myCarousel .item { height: 310px; }
+	#myCarousel .item { height: 400px; }
 
+	.carousel-caption h2{
+		text-align: left;
+		left: 0px;
+   font-size: 15px;
+    color: black;
+		margin-left: 0px;
+		margin-bottom: 100px;
 
+	}
+	.abc{
+		font-size: 15px;
+		text-align: center;
+		color:black;
+
+	}
+	.ab{
+		font-size: 20px;
+		text-align: center;
+		color: #900C3F;
+	}
+
+.highlight{
+	color: white;
+	background: black;
+}
+.high{
+	margin-left: 00px;
+	margin-top: 200px;
+	font-size: 15px;
+	color: #4E2736;
+
+}
 
 
 	#slide1 {
@@ -152,7 +302,7 @@ p {
 	}
 
 	#slide3 {
-		background: url('../../images/img3_sm.jpg') top center no-repeat;
+		background: url('../../images/img4_sm.jpg') top center no-repeat;
 	background-size: cover;
 	}
 
@@ -168,25 +318,25 @@ p {
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	#myCarousel .item { height: 500px; }
+	#myCarousel .item { height: 600px; }
 
 	.carousel-caption h2{
 		text-align: left;
 		left: 0px;
    font-size: 40px;
     color: black;
-		margin-left: 130px;
-		margin-bottom: 100px;
+		margin-left: 10px;
+		margin-bottom: 250px;
 
 	}
 	.abc{
-		font-size: 50px;
+		font-size: 30px;
 		text-align: center;
 		color:grey;
 
 	}
 	.ab{
-		font-size: 60px;
+		font-size: 40px;
 		text-align: center;
 		color: #900C3F;
 	}
@@ -196,11 +346,14 @@ p {
 	background: black;
 }
 .high{
-	margin-left: 500px;
+	margin-left: 30px;
 	margin-top: 200px;
 	font-size: 40px;
 	color: #4E2736;
-	font-style: oblique;
+
+}
+.navigation a{
+	font-size: 25px;
 }
 	#slide1 {
 		background: url('../../images/img1_lg.jpg') top center no-repeat;
@@ -213,7 +366,7 @@ p {
 	}
 
 	#slide3 {
-		background: url('../../images/img3_lg.jpg') top center no-repeat;
+		background: url('../../images/img4_lg.jpg') top center no-repeat;
 	background-size: cover;
 	}
 

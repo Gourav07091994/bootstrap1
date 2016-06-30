@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="includes/css/styles.css">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+
+  <body>
+
+    <div class="container" id="main">
+
+      <div class="navbar navbar-fixed-top">
+        <div class="container">
+
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/"><h1>RydeSmart</h1></a>
+
+
+          <div class="nav-collapse collapse navbar-responsive-collapse col xs-12 pull-right">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-home"> Home</span></a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support</a>
+
+
+
+            <li class="dropdown">
+              <a href="#"  data-toggle="dropdown"><span class="glyphicon glyphicon-map-marker"></span> Find The City  <strong class="caret"></strong></a><ul class="dropdown-menu">
+                <li>
+                  <a href="#">Nearby Cabs</a>
+                </li>
+
+                <li>
+                  <a href="#">Choose a location</a>
+                </li>
+              </ul>
+            </li>
+
+
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account<strong class="caret"></strong></a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                  <a href="#">Sign Up</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Login</a>
+                  </li>
+
+                </ul>
+              </li>
+          </div><!-- end nav-collapse -->
+
+        </div><!-- end container -->
+      </div><!-- end navbar -->
+
+
+<div class="mid">
+  <div class="row">
+    <div>
+	<p id="search"><form class="navbar-form" width="200px">
+  	<input type="text" class="form-control" placeholder="How can we help.." id="searchInput">
+  		<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+	</form></p>
+</div>
+</div>
+
+  <h2>Sign in to get help with your account and trips.</h2>
+  	<button class="btn btn-primary ca" type="submit">SIGN UP</button>
+
+</div>
+<div class="container">
+  <div class="row" id="moreInfo">
+    <div class="col-sm-12">
+      <h3>CATEGORIES</h3>
+		</div>
+	</div>
+	<div class="row" id="iii">
+      <div class="tabbable">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">FOR RIDERS</a></li>
+          <li><a href="#tab2" data-toggle="tab">FOR DRIVERS</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab1">
+            <h1>Popular Topics</h1>
+
+        <div class="col-sm-4">
+
+            <nav class="navigation">
+              <ul>
+                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Account</a></li>
+                <li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i> Payment</a></li>
+                <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> How to use SmartRyde</a></li>
+                <li><a href="#"><i class="fa fa-inr" aria-hidden="true"></i> SmartRyde Money</a></li>
+                <li><a href="#"><i class="fa fa-car" aria-hidden="true"></i> SmartRyde Share</a></li>
+              </ul>
+            </nav>
+
+        </div>
+				<div class="col-8">
+					<div class="row">
+            <div class="row">
+            <div class="col-sm-6">
+              <div class="panel">
+              <h4> Account</h4>
+                 <ul class="bullets">
+                   <li><a href="#">Update my account information</a></li>
+                   <li><a href="#">Reset my password</a></li>
+                   <li><a href="#">My account is suspended</a></li>
+                    <li><a href="#">More..</a></li>
+                 </ul>
+             </div>
+           </div>
+               <div class="col-sm-6">
+                 <div class="panel">
+                   <h4> Payment</h4>
+                 <ul class="bullets">
+                   <li><a href="#">Choosing a payment method</a></li>
+                   <li><a href="#">Verify payment method</a></li>
+                   <li><a href="#">Choosing a profile</a></li>
+                   <li><a href="#">More..</a></li>
+                 </ul>
+                </div>
+              </div>
+						</div>
+						<div class="row">
+
+              <div class="col-sm-6">
+                <div class="panel">
+                  <h4> How to use SmartRyde</h4>
+                    <ul class="bullets">
+                      <li><a href="#">SmartRypde Overview</a></li>
+                      <li><a href="#">Signing Up</a></li>
+                      <li><a href="#">Using the app</a></li>
+                      <li><a href="#">More..</a></li>
+                    </ul>
+
+               </div>
+             </div>
+             <div class="col-sm-6">
+               <div class="panel">
+                 <h4> SmartRyde Money</h4>
+                <ul class="bullets">
+                  <li><a href="#">What is SmartRyde Money</a></li>
+                  <li><a href="#">How can I recharge SmartRyde Money</a></li>
+                  <li><a href="#">How can I save a debit or credit card</a></li>
+                 <li><a href="#">More..</a></li>
+                </ul>
+              </div>
+            </div>
+					</div>
+
+</div>
+</div>
+</div>
+
+
+        <div class="tab-pane" id="tab2">
+          <h1>Popular Topics</h1>
+      <div class="col-sm-4">
+
+          <nav class="navigation">
+            <ul>
+              <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> PAYMENTS AND REWARDS</a></li>
+              <li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i> SIGN UP TO DRIVE</a></li>
+              <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> ACCOUNT</a></li>
+              <li><a href="#"><i class="fa fa-inr" aria-hidden="true"></i> DEVICE</a></li>
+              <li><a href="#"><i class="fa fa-car" aria-hidden="true"></i> HOW TO USE SMARTRYDE</a></li>
+            </ul>
+          </nav>
+
+      </div>
+			<div class="col-8">
+    <div class="row">
+			<div class="row">
+          <div class="col-sm-6">
+            <div class="panel">
+            <h4>PAYMENTS AND REWARDS</h4>
+               <ul class="bullets">
+                 <li><a href="#">How to request a trip fare review</a></li>
+                 <li><a href="#">Driver Payments</a></li>
+                 <li><a href="#">Set up my Banking Information</a></li>
+
+               </ul>
+           </div>
+         </div>
+             <div class="col-sm-6">
+               <div class="panel">
+                 <h4> SIGN UP TO DRIVE</h4>
+               <ul class="bullets">
+                 <li><a href="#">Steps to become a driver-partner</a></li>
+                 <li><a href="#">Getting Started</a></li>
+                 <li><a href="#">Safety and Screening Process</a></li>
+
+               </ul>
+              </div>
+            </div>
+					</div>
+					<div class="row">
+            <div class="col-sm-6">
+              <div class="panel">
+                <h4>ACCOUNT</h4>
+                  <ul class="bullets">
+                    <li><a href="#">Sign In Troubleshooting</a></li>
+                    <li><a href="#">Account Settings</a></li>
+                    <li><a href="#">Ratings</a></li>
+
+                  </ul>
+
+             </div>
+           </div>
+           <div class="col-sm-6">
+             <div class="panel">
+               <h4> DEVICE</h4>
+              <ul class="bullets">
+                <li><a href="#">Technical issues</a></li>
+                <li><a href="#">Using your own device</a></li>
+                <li><a href="#">Deaf and HOH Partner Settings</a></li>
+
+              </ul>
+            </div>
+          </div>
+				</div>
+
+          </div>
+
+          </div>
+        </div>
+      </div>
+</div>
+<div class="clear"></div>
+
+	<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy; 2013 {name}</h6>
+				</div>
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+					<p>Get randon discount and instant booking.Our cars are audited for cleanliness, safety and comfort.Our drivers are well trained and reliable.To  exceed our customers’ expectations with innovative and bold ideas for becoming the world’s most safe and cheap cab services.</p>
+					</div>
+								<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-4">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div>
+
+
+				</div>
+		</footer>
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+
+    </body>
+  </html>
